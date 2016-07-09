@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Admin Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color: beige">
+        <div class = "heading">
+            <h1>Welcome New Admin!</h1>
+            <br>
+            <h2> Please enter the following details to register:</h2>
+        </div>
+        <div class="login_details">
+            <form method ="post" action="registeradmin.php">
+                <table class="center" cellspacing="20">
+                    <tr>
+                    <td>USER NAME :</td>
+                    <td><input type='number' name='username' /></td>
+                    </tr>
+                    <tr>
+                    <td>EMPLOYEE ID :</td>
+                    <td><input type='number' name='emplid' /></td>
+                    </tr>
+                    <tr>
+                    <td>PASSWORD  :</td>
+                    <td><input type='password' name='pswd' /></td>
+                    </tr>
+                    <tr>
+                    <td>CONFIRM PASSWORD  :</td>
+                    <td><input type='password' name='cpswd' /></td>
+                    </tr>
+                    <tr>
+                    <td>EMAIL ID  :</td>
+                    <td><input type='email' name='email' /></td>
+                    </tr>
+                    <tr>
+                    <td>MOBILE NUMBER  :</td>
+                    <td><input type='tel' name='mobile' /></td>
+                    </tr>
+                    <tr>
+                    <td><input type="submit" value="REGISTER" name="submit"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
